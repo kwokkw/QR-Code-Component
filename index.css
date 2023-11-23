@@ -61,3 +61,10 @@ footer {
     position: absolute;
     left: -100000px;
 }
+
+@media screen and (min-width: 1440px) {
+    .container {
+        width: 325px;
+        height: 520px;
+    }
+}
