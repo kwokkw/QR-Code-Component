@@ -12,9 +12,11 @@
 
 :root {
     /* GENERAL */
-    --BORER-RADIUS: 15px;
-    --PADDING: 1rem;
+    --BORER-RADIUS: 20px;
+    --PADDING: 1.5rem;
 }
+
+/* General Styles*/
 
 body {
     background-color: hsl(212, 45%, 89%);
@@ -28,22 +30,28 @@ body {
     background-color: white;
     border-radius: var(--BORER-RADIUS);
     width: 330px;
-    height: 500px;
+    height: 525px;
 }
 
 img {
-    padding: var(--PADDING);
-    min-width: 100%;
-    height: 298px;
+    width: 90%;
+    height: auto;
+    display: block;
+    margin: 1rem auto 0 auto;
+    border-radius: var(--BORER-RADIUS);
 }
 
 h2 {
-    padding: var(--PADDING);
+    padding-top: var(--PADDING);
+    padding-left: var(--PADDING);
+    padding-right: var(--PADDING);
     text-align: center;
 }
 
 p {
-    padding: var(--PADDING);
+    padding-top: var(--PADDING);
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
     text-align: center;
     color: hsl(220, 15%, 55%);
     font-size: 15px;
